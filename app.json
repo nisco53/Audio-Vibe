@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "AudioVibe",
+    "slug": "audio-vibe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "audio-vibe",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.audiovibe.app",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": ["spotify"],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.audiovibe.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#12122A"
+      }
+    },
+    "plugins": [
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5a48b076-d21d-456d-b749-ec2aa63a5dc5"
+      }
+    },
+    "owner": "nisco53"
+  }
+}
